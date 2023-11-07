@@ -1,0 +1,27 @@
+*{
+    margin:0;
+}
+section{
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+}
+video{
+    height: 30vh;
+    width: 23vw;
+    border: 5px solid white;
+    padding: 2px;
+    margin: 10px;
+}
+.bg{
+    background-image: url(media/meku.avif);
+    background-size: cover;
+    height:auto;
+    background-position: center;
+    background-repeat:repeat;
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+}
